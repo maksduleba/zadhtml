@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+ 
+<html>
+ 
+<html lang="pl-PL">
+ 
+<html>
+ 
+<head>
+    <meta charset="utf-8">
+    <title> strona formularza </title>
+</head>
+ 
+<body style="background-color:#6666FF">
+ 
+    <h1 style="text-align:left; color:black">FORMULARZ SPRAWDZAJĄCY AKTYWNOŚĆ FIZYCZNĄ</h1>
+    <hr style="border-color:black; width:100%; size: 3;">
+ 
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend><b>Dane</b></legend>
+                        <table style="width:300px">
+                            <tr>
+                                <td><label for="EMAIL">EMAIL</label></td>
+                                <td><input id="EMAIL" type=”text” name=”EMAIL” size=”25” maxlength=”50”></td>
+                            </tr>
+                            <tr>
+                                <td><label for="HASŁO">HASŁO</label></td>
+                                <td><input id="HASŁO" type=”text” name=”HASŁO” size=”25” maxlength=”50”></td>
+                            </tr>
+                            <tr>
+                                <td><label for="Wiek">Wiek:</label></td>
+                                <td><select name=”Wiek”>
+                                        <option>10-12</option>
+                                        <option>13-15</option>
+                                        <option>16-18 lat</option>
+                                        <option>18-20</option>
+                                        <option>wolę nie podawać</option>
+                                    </select></td>
+                            </tr>
+                             <tr>
+                                <td><label for="IMIĘ">IMIĘ</label></td>
+                                <td><input id="IMIĘ" type=”text” name=”IMIĘ” size=”25” maxlength=”50”></td>
+                            </tr>
+                             <tr>
+                                <td><label for="NAZWISKO">NAZWISKO</label></td>
+                                <td><input id="NAZWISKO" type=”text” name=”NAZWISKO” size=”25” maxlength=”50”></td>
+                            </tr>   
+                        </table>
+                    </fieldset>
+                </td>
+        <table>
+            <tr>
+                <td>
+                    <table style="width:600px">
+                        <tr>
+                            <td colspan="4">
+                                Jakie masz nauczanie?
+                        <tr>
+                            <td>
+                                <label><input type="radio" name="pytanie_10" value="Zdalne" />Zdalne</label><br>
+                            </td>
+                            <td>
+                                <label><input type="radio" name="pytanie_10" value="Stacjonarne" />Stacjonarne</label><br>
+                            </td>
+                            <td>
+                                <label><input type="radio" name="pytanie_10" value="Hybrydowe" />Hybrydowe</label><br>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+ 
+        <br>
+ 
+        <table style="width:1050px">
+            <tr>
+                <td style="vertical-align: top;">
+                    Ile godzin spędzasz na zewnątrz<br>
+                    <label><input type="radio" name="pytanie_6" value="1-2" />1-2</label><br>
+                    <label><input type="radio" name="pytanie_6" value="3-5" />3-5</label><br>
+                    <label><input type="radio" name="pytanie_6" value="6-8" />6-8</label><br>
+                    <label><input type="radio" name="pytanie_6" value="wolę nie mówić" />wolę nie mówić</label><br>
+                </td>
+            </tr>
+        </table>
+        <table style="width:800px">
+            co trenujesz<br>
+             <tr>
+                 <td>
+                  <label><input type="checkbox" value="Basen" />Basen</label><br>
+                </td>
+                 <td>
+                  <label><input type="checkbox" value="Siłownia" />Siłownia</label><br>
+                </td>
+                 <td>
+                  <label><input type="checkbox" value="INNE" />INNE</label><br>
+                </td>
+            </tr>
+        </table><br><br>
+                    <label for="uwagi">UWAGI</label><br>
+                    <textarea id="uwagi" style="width: 300px; height: 117px" name="uwagi"></textarea>
+                    <br>
+ 
+        <input type="submit" value="Wyślij">
+        <input type="reset" value="Wyczyść">
+    </form>
+ 
+    <A HREF="index.html">wróć</A>
+</body>
+ 
+</html>
